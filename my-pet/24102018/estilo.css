@@ -1,0 +1,114 @@
+a:link {
+  color: white;
+}
+
+#kachorro{
+	font-size: 50px;
+  color: white;
+  
+}
+.row{
+
+}
+#cabecalho{
+  position: relative;
+  width: 100%;
+
+}
+.row{
+
+
+}
+#home{
+
+	color: white;
+  background-color: black;
+	border-bottom: yellow 3px solid;
+  width: 60;
+	height: 35px;
+	transition: 0.3s;
+	text-align:center;
+}
+#home:hover{
+	border-bottom: yellow 15px solid;
+}
+
+#Servicos{
+	color: white;
+	background-color: black;
+	width: 225;
+	border-bottom: orange 3px solid;
+	height: 35px;
+	transition: 0.3s;
+	text-align:center;
+}
+#Servicos:hover{
+	border-bottom: orange 16px solid;
+}
+
+#Produtos{
+	color: white;
+	background-color: black;
+	width: 225;
+	border-bottom: blue 3px solid;
+	height: 35px;
+	transition: 0.3s;
+	text-align:center;
+}
+#Produtos:hover{
+	border-bottom: blue 16px solid;
+}
+
+#Galeria{
+	color: white;
+	background-color: black;
+	width: 225;
+	border-bottom: red 3px solid;
+	height: 35px;
+	transition: 0.3s;
+	text-align:center;
+}
+#Galeria:hover{
+	border-bottom: red 16px solid;
+}
+
+#Contato{
+	color: white;
+	background-color: black;
+	width: 225px;
+	border-bottom: grey 3px solid;
+	height: 35px;
+	transition: 0.3s;
+	text-align:center;
+}
+#Contato:hover{
+	border-bottom: grey 16px solid;
+}
+
+#meio{
+	width: 100%;
+	height: 500px;
+}
+#rodape{
+	background: black;
+	color: white;
+	width: 100%;
+
+}
+#imagemum{
+	position: absolute;
+  top: 250;
+  left: 150;
+	right:auto;
+}
+#texto{
+
+	color: black;
+	font-size: 16px;
+	position: relative;
+	top: 100;
+	left:410;
+}
+body{
+	background-image: url("bg-pet.jpg");
+}

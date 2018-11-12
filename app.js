@@ -1,0 +1,10 @@
+"use strict";
+exports.__esModule = true;
+var metralhadora_1 = require("./metralhadora");
+var metralhadora1 = new metralhadora_1.metralhadora(30, 30, 10);
+metralhadora1.atirar();
+metralhadora1.atirar();
+metralhadora1.atirar();
+metralhadora1.atirar();
+metralhadora1.atirar();
+metralhadora1.atirar();

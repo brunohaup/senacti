@@ -1,5 +1,6 @@
-let olamundo = (texto: string) =>{
+let OlaMundo = (texto: string)=>{
     console.log(texto)
 }
 
-olamundo('KACHOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOORO')
+    OlaMundo('senac')
+    

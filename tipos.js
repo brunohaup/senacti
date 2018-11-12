@@ -1,4 +1,4 @@
-var olamundo = function (texto) {
+var OlaMundo = function (texto) {
     console.log(texto);
 };
-olamundo('KACHOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOORO');
+OlaMundo('senac');

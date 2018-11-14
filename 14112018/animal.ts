@@ -1,14 +1,12 @@
 export class animal{
     private quantidadededentes: number
     private quantidadedeolhos: number
-    private 
-    constructor (qtddentes:number, qtdolhos:number){
+    private nome: string
+    constructor (qtddentes:number, qtdolhos:number, nomeanimal:string){
         this.quantidadededentes = qtddentes
-        this.quantidadedeolhos = qtddentes
-
+        this.quantidadedeolhos = qtdolhos
+        this.nome = nomeanimal
     }
-
-    
 
 
 }

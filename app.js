@@ -8,3 +8,6 @@ metralhadora1.atirar();
 metralhadora1.atirar();
 metralhadora1.atirar();
 metralhadora1.atirar();
+var arma_1 = require("./arma");
+var pist = new arma_1.arma(30, 30);
+pist.atirar(1);

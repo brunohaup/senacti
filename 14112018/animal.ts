@@ -1,11 +1,14 @@
 export class animal{
-    private quantidadededentes: number
-    private quantidadedeolhos: number
-    private nome: string
-    constructor (qtddentes:number, qtdolhos:number, nomeanimal:string){
+    protected quantidadededentes: number
+    protected quantidadedeolhos: number
+    protected tipoanimal:string
+    protected nome:string
+
+    constructor (qtddentes:number, qtdolhos:number, nomeanimal:string, tipo:string){
         this.quantidadededentes = qtddentes
         this.quantidadedeolhos = qtdolhos
         this.nome = nomeanimal
+        this.tipoanimal = tipo
     }
 
 

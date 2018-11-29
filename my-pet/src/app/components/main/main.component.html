@@ -1,0 +1,16 @@
+<img [src]='imagem'/> 
+<br>
+<button (click)='exibirimagem()'>Exibir Imagem</button><br><br>
+
+<li *ngFor='let hero of heroes'>{{hero.numero}}, {{hero.nome}} </li><br><br>
+
+
+Nome:<br>
+<textarea (input)='textodigitado($event)'></textarea><br>
+Sobrenome:<br>
+<textarea (input)='textodigitado2($event)'></textarea><br>
+<button (click)='botao()'>Enviar</button>
+
+
+
+

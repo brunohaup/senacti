@@ -7,5 +7,14 @@ import { Component } from '@angular/core';
   })
 
   export class FooterComponent {
-    title = 'footer'
+    //event biading
+
+    mostratexto:string
+    mostratexto2:string
+    textodigitado(valor:Event):void{
+
+       this.mostratexto = ((<HTMLInputElement>valor.target).value)
+       
+        this.mostratexto2 = this.mostratexto
+    }
   }

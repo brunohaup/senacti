@@ -7,6 +7,9 @@ import { Component } from '@angular/core';
   })
 
   export class HeaderComponent {
-    title = 'header'
+    //string interpolation
+   teste:string = 'eu sei matematica'
+
+  
   }
   

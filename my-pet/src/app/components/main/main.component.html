@@ -6,10 +6,11 @@
 
 
 Nome:<br>
-<textarea (input)='textodigitado($event)'></textarea><br>
+<textarea (input)='textodigitado($event)' [value]=pessoa.Nome></textarea><br>
 Sobrenome:<br>
-<textarea (input)='textodigitado2($event)'></textarea><br>
+<textarea (input)='textodigitado2($event)' [value]=pessoa.sobrenome></textarea><br>
 <button (click)='botao()'>Enviar</button>
+
 
 
 
